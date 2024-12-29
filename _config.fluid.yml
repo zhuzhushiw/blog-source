@@ -1,0 +1,55 @@
+# 全局背景图
+background:
+  # 是否启用
+  enable: true
+  # 背景图片
+  url: /img/bg.jpg
+  # 背景图片的位置
+  position: center
+  # 背景图片是否固定不随页面滚动
+  fixed: true
+  # 是否重复平铺
+  repeat: no-repeat
+  # 背景图片大小 
+  size: cover
+
+# 页面顶部大图
+index:
+  banner_img: /img/wallpaper1.png
+  banner_img_height: 100
+  slogan:
+    enable: true
+    text: "🐕🐱"
+
+# 导航菜单
+navbar:
+  blog_title: # 导航栏左侧的标题，为空则按 hexo config.title 显示
+  ground_glass:
+    enable: true
+  menu:
+    - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
+    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
+    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
+    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    - { key: "tetris", link: "/tetris/", icon: "iconfont icon-gamepad" }
+
+# 侧边栏
+sidebar:
+  # 侧边栏位置，可选值：left | right
+  position: right
+  # 侧边栏距离顶部距离 (支持 px 和 % 等单位)
+  offsetTop: 20px
+  # 侧边栏动画
+  animation: false
+  # 是否显示额外的图标
+  icons: true
+  # 是否显示额外的文本
+  text: true
+  # 侧边栏自定义小部件
+  widgets:
+    - class: games
+      display: true
+
+# 自定义 CSS
+custom_css: /css/custom.css

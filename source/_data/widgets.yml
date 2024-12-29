@@ -1,0 +1,16 @@
+stickers:
+  - tag: '<img class="sticker sticker-1" src="/img/background.jpg" alt="sticker1">'
+  - tag: '<img class="sticker sticker-2" src="/img/newjeans2.jpg" alt="sticker2">'
+  - tag: '<img class="sticker sticker-3" src="/img/newjeans2.jpg" alt="sticker3">'
+
+games:
+  class: games
+  display: true
+  header:
+    icon: iconfont icon-gamepad
+    icon_color: "#FF69B4"
+    title: 小游戏
+  body:
+    - name: 俄罗斯方块
+      url: /tetris/
+      icon: iconfont icon-gamepad
